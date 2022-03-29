@@ -6,4 +6,7 @@ const countDown = (n) => {
   }, 1000);
 };
 
-countDown(10);
+const factorial = (n) => {
+  if (n <= 1) return 1;
+  return n * factorial(n - 1);
+};
