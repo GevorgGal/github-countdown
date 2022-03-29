@@ -5,5 +5,3 @@ const countDown = (n) => {
     countDown(n - 1);
   }, 1000);
 };
-
-countDown(10);
